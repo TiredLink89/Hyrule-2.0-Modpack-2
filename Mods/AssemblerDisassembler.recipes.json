@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recipes": [
+    {
+      "id": "arrows",
+      "enabled": true,
+      "seconds": 3,
+      "inputs": [
+        {
+          "slot": 1,
+          "quantity": 1,
+          "items": [ { "prefabId": 29772 } ]
+        },
+        {
+          "slot": 2,
+          "quantity": 1,
+          "items": [
+            { "prefabId": 50608 },
+            { "prefabId": 24072 },
+            { "itemName": "Spriggull Feather Blue", "convertToPrefabId": 50608 },
+            { "itemName": "Spriggull Feather Red", "convertToPrefabId": 24072 }
+          ]
+        },
+        {
+          "slot": 3,
+          "quantity": 1,
+          "items": [
+            { "prefabId": 7092 },
+            { "prefabId": 61488 },
+            { "prefabId": 12492 },
+            { "prefabId": 6934 },
+            { "prefabId": 3558 },
+            { "prefabId": 50412 },
+            { "prefabId": 44360 }
+          ]
+        }
+      ],
+      "output": {
+        "mode": "nativeAssembly",
+        "quantity": 1,
+        "rootSlot": 1,
+        "attachments": [3, 2]
+      }
+    }
+  ]
+}
